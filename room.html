@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="room.css">
+    <title>Bookings</title>
+</head>
+<body>
+    <header>
+        <h1>Bookings</h1>
+    </header>
+    <form id="bookingForm">
+        <label for="bookingType">Select Booking Type:</label>
+        <select id="bookingType" name="bookingType">
+            <option value="food">Food</option>
+            <option value="rooms">Rooms</option>
+            <option value="pool">Pool Access</option>
+            <option value="booze">Beverages (Booze)</option>
+           
+        </select>
+        <label for="paymentMethod">Select Payment Method:</label>
+        <select id="paymentMethod" name="paymentMethod">
+            <option value="Mpesa">Mpesa</option>
+            <option value="Ecocash">Ecocash</option>
+            <option value="Card">Card</option>
+          
+        </select>
+        <button type="submit">Book Now</button>
+    </form>
+</body>
+</html>
